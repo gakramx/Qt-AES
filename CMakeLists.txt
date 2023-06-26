@@ -8,7 +8,7 @@ endif()
 
 option(QTAES_ENABLE_AESNI "${PROJECT_NAME}: Enable AES-NI" OFF)
 option(QTAES_ENABLE_INSTALL "${PROJECT_NAME}: Enable install" ${QTAES_STANDALONE_BUILD})
-option(QTAES_ENABLE_TESTS "${PROJECT_NAME}: Enable tests" ${QTAES_STANDALONE_BUILD})
+option(QTAES_ENABLE_TESTS "${PROJECT_NAME}: Enable tests" OFF)
 option(QTAES_ENABLE_WERROR "${PROJECT_NAME}: Treat warnings as errors" OFF)
 
 set(QTAES_QT_VERSION 6 CACHE STRING "${PROJECT_NAME}: Qt version to use")
